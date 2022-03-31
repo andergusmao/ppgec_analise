@@ -1,14 +1,12 @@
 library(tidyverse)
-library(readxl)
-
 
 #carregando a base de dados
-dados <- read_xlsx("1.ganho_naoganho/ganho_naoganho.xlsx")
-
+dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
+view(dados)
 
 #plotando o gráfico de estilo de aprendizagem
-dados %>% ggplot(aes(resultado, houve_ganho, fill=resultado, color=resultado)) + 
+dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=resultado_geral, color=resultado_geral)) + 
   geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem')+
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste', fill=NULL, color=NULL)+
   theme_minimal()
 
