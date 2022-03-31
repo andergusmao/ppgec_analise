@@ -1,3 +1,7 @@
+#token
+#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
+
+
 library(tidyverse)
 
 #carregando a base de dados geral
