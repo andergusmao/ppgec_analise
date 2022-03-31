@@ -10,3 +10,8 @@ dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=resultado_geral, color=r
   labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste', fill=NULL, color=NULL)+
   theme_minimal()
 
+#plotando o gráfico do ganho e não ganho do pré e pós teste pelo sexo
+dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=sexo)) + 
+  geom_boxplot(alpha=0.3) + geom_jitter() +
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste', fill=NULL, color=NULL)+
+  theme_minimal()
