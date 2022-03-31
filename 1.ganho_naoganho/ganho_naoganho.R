@@ -1,6 +1,6 @@
 library(tidyverse)
 
-#carregando a base de dados
+#carregando a base de dados geral
 dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
 view(dados)
 
