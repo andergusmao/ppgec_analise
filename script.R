@@ -28,6 +28,18 @@ dados %>% ggplot(aes(resultado_sequencia, ganho_sequencia, fill=resultado_sequen
   labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Conteúdo: Sequência', fill=NULL, color=NULL)+
   theme_minimal()
 
+#plotando o gráfico do ganho e não ganho do conteúdo repetição
+dados %>% ggplot(aes(resultado_repeticao, ganho_repeticao, fill=resultado_repeticao, color=resultado_repeticao )) + 
+  geom_boxplot(alpha=0.3) + geom_jitter() +
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Conteúdo: Repetição', fill=NULL, color=NULL)+
+  theme_minimal()
+
+#plotando o gráfico do ganho e não ganho do conteúdo condicional
+dados %>% ggplot(aes(resultado_condicional, ganho_condicional, fill=resultado_condicional, color=resultado_condicional)) + 
+  geom_boxplot(alpha=0.3) + geom_jitter() +
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Conteúdo: Condicional', fill=NULL, color=NULL)+
+  theme_minimal()
+
 
 #perfil dos estudantes
 dados %>% ggplot(aes(x = estilo_aprendizagem, y = exp_ativa..x_1q.))+ 
