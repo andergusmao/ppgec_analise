@@ -1,5 +1,5 @@
-library(tidyverse)
-library(readxl)
+#library(tidyverse)
+#library(readxl)
 
 #carregando a base de dados
 dados <- read_xlsx("1.ganho_naoganho/ganho_naoganho.xlsx")
