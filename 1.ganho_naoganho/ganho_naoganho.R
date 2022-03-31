@@ -15,3 +15,9 @@ dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=sexo)) +
   geom_boxplot(alpha=0.3) + geom_jitter() +
   labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste por Sexo', fill='Sexo', color=NULL)+
   theme_minimal()
+
+#plotando o gráfico de estilo de aprendizagem
+dados %>% ggplot(aes(resultado_geral, ganho_geral, color=estilo_aprendizagem)) + 
+  geom_boxplot(alpha=0.3) + geom_jitter() +
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem Geral', color='Estilo de Aprendizagem')+
+  theme_minimal()
