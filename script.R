@@ -1,46 +1,27 @@
 library(tidyverse)
 
-
-#ganho e não ganho
-#setwd('/home/anderson/Documentos/analise/')
+#carregando a base de dados geral
 dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
 view(dados)
 
-
-dados %>% 
-  ggplot(aes(resultado, houve_ganho, fill=resultado, color=resultado)) + 
-  geom_boxplot(alpha=0.5) + 
-  geom_jitter()
-
-
-
-dados %>% ggplot(aes(x=houve_ganho, y=geral)) + 
-  geom_boxplot(fill='brown4', alpha=0.1, width=.5)+
-  stat_summary(fun=mean, geom = 'point', col='brown4', shape=8)+
-  labs(x=NULL, y='Pré e Pós', title='Resultado do Pré e Pós Teste')+
+#plotando o gráfico do ganho e não ganho do pré e pós teste 
+dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=resultado_geral, color=resultado_geral)) + 
+  geom_boxplot(alpha=0.3) + geom_jitter() +
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste', fill=NULL, color=NULL)+
   theme_minimal()
 
-dados %>% ggplot(aes(x = resultado, y = pre_teste_geral, pos_teste_geral))+ 
-  geom_boxplot(fill='brown4', alpha=0.1, width=.5)+
-  stat_summary(fun=mean, geom = 'point', col='brown4', shape=8)+
-  labs(x=NULL, y='Pré e Pós', title='Resultado do Pré e Pós Teste')+
+#plotando o gráfico do ganho e não ganho do pré e pós teste por sexo
+dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=sexo)) + 
+  geom_boxplot(alpha=0.3) + geom_jitter() +
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste por Sexo', fill='Sexo', color=NULL)+
   theme_minimal()
 
+#plotando o gráfico de estilo de aprendizagem geral 
+dados %>% ggplot(aes(resultado_geral, ganho_geral, color=estilo_aprendizagem)) + 
+  geom_boxplot(alpha=0.3) + geom_jitter() +
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem Geral', color='Estilo de Aprendizagem')+
+  theme_minimal()
 
-
-
-
-#importar os dados
-setwd('/home/anderson/Documentos/analise/')
-dados <- read.csv("ANÁLISE - Questionários_ Atividades - index.csv")
-view(dados)
-
-#construindo os boxplots
-
-#geral
-dados %>% ggplot(aes(x = tipo_teste, fill = geral))+ 
-  geom_boxplot(fill='brown4', alpha=0.1, width=.5)
-#+  stat_summary(fun=mean, geom = 'point', col='brown4', shape=8)+  labs(x=NULL, y='Experiência Ativa', title='Estilo de Aprendizagem')+  theme_minimal()
 
 #perfil dos estudantes
 dados %>% ggplot(aes(x = estilo_aprendizagem, y = exp_ativa..x_1q.))+ 
@@ -68,6 +49,7 @@ dados %>% ggplot(aes(x = estilo_aprendizagem, y = con_abstrata.y_4q.))+
   stat_summary(fun=mean, geom = 'point', col='brown4', shape=8)+
   labs(x=NULL, y='Conceituação Abstrata', title='Estilo de Aprendizagem')+
   theme_minimal()
+
 
 #construir os testes
 wilcox.test(dados$geral~dados$tipo_teste)
