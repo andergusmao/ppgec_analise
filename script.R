@@ -22,6 +22,12 @@ dados %>% ggplot(aes(resultado_geral, ganho_geral, color=estilo_aprendizagem)) +
   labs(x=NULL, y=NULL, title='Ganho de Aprendizagem Geral', color='Estilo de Aprendizagem')+
   theme_minimal()
 
+#plotando o gráfico do ganho e não ganho do conteúdo sequência
+dados %>% ggplot(aes(resultado_sequencia, ganho_sequencia, fill=resultado_sequencia, color=resultado_sequencia)) + 
+  geom_boxplot(alpha=0.3) + geom_jitter() +
+  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Conteúdo: Sequência', fill=NULL, color=NULL)+
+  theme_minimal()
+
 
 #perfil dos estudantes
 dados %>% ggplot(aes(x = estilo_aprendizagem, y = exp_ativa..x_1q.))+ 
