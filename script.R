@@ -5,9 +5,10 @@ dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
 view(dados)
 
 #plotando o gráfico do ganho e não ganho do pré e pós teste 
+#title='Ganho de Aprendizagem do Pré e Pós Teste' 
 dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=resultado_geral, color=resultado_geral)) + 
   geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste', fill=NULL, color=NULL)+
+  labs(x=NULL, y=NULL, fill=NULL, color=NULL)+
   theme_minimal()
 
 #plotando o gráfico do ganho e não ganho do pré e pós teste por sexo
@@ -17,27 +18,31 @@ dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=sexo)) +
   theme_minimal()
 
 #plotando o gráfico de estilo de aprendizagem geral 
+#title='Ganho de Aprendizagem Geral'
 dados %>% ggplot(aes(resultado_geral, ganho_geral, color=estilo_aprendizagem)) + 
   geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem Geral', color='Estilo de Aprendizagem')+
+  labs(x=NULL, y=NULL, color='Estilo de Aprendizagem')+
   theme_minimal()
 
 #plotando o gráfico do ganho e não ganho do conteúdo sequência
+#title='Ganho de Aprendizagem do Conteúdo: Sequência',
 dados %>% ggplot(aes(resultado_sequencia, ganho_sequencia, fill=resultado_sequencia, color=resultado_sequencia)) + 
   geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Conteúdo: Sequência', fill=NULL, color=NULL)+
+  labs(x=NULL, y=NULL, fill=NULL, color=NULL)+
   theme_minimal()
 
 #plotando o gráfico do ganho e não ganho do conteúdo repetição
+#title='Ganho de Aprendizagem do Conteúdo: Repetição', 
 dados %>% ggplot(aes(resultado_repeticao, ganho_repeticao, fill=resultado_repeticao, color=resultado_repeticao )) + 
   geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Conteúdo: Repetição', fill=NULL, color=NULL)+
+  labs(x=NULL, y=NULL,  fill=NULL, color=NULL)+
   theme_minimal()
 
 #plotando o gráfico do ganho e não ganho do conteúdo condicional
+#title='Ganho de Aprendizagem do Conteúdo: Condicional',
 dados %>% ggplot(aes(resultado_condicional, ganho_condicional, fill=resultado_condicional, color=resultado_condicional)) + 
   geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Conteúdo: Condicional', fill=NULL, color=NULL)+
+  labs(x=NULL, y=NULL,  fill=NULL, color=NULL)+
   theme_minimal()
 
 
