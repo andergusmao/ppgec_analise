@@ -1,5 +1,5 @@
 library(tidyverse)
-gitcreds::gitcreds_set()
+#gitcreds::gitcreds_set()
 #carregando a base de dados geral
 dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
 view(dados)
