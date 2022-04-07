@@ -5,12 +5,14 @@ library(gtsummary) #pacote para gerar tabelas
 
 #importando a base de dados
 dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
+view(dados)
 
 
 #tabela simples exemplo
 dados %>% 
   select( #aqui ta selecionando todas as variáveis na tabela
-    sexo, 
+    sexo,
+    serie,
     estilo_aprendizagem, 
     resultado_geral) %>% 
   tbl_summary(
