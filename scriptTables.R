@@ -1,7 +1,7 @@
 #material de referencia https://epirhandbook.com/en/simple-statistical-tests.html
 library(tidyverse) #pacote para manipular dados
 library(gtsummary) #pacote para gerar tabelas
-
+#
 
 #importando a base de dados
 dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
