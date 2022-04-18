@@ -13,7 +13,7 @@ dados %>%
   select( #aqui ta selecionando todas as variáveis na tabela
     sexo,
     serie,
-    estilo_aprendizagem, 
+    estilo_aprendizagem,
     resultado_geral) %>% 
   tbl_summary(
     by = resultado_geral) %>% #o by informa a varilavel ganho e nao ganho
