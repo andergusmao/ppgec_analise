@@ -4,7 +4,7 @@ library(gcookbook)
 library(lubridate)
 
 #importando as bases
-dados <- read_csv("dados/mmla.csv")
+dados <- read_csv("mmla.csv")
 
 #renomear variáveis
 dados <- dados %>% rename(c("Nervoso"="angry", ))
@@ -35,6 +35,20 @@ dados %>%
   facet_wrap(~situacao) 
 
 
+#estados emocionais para a atividade plugada
+dados %>% 
+  filter(abordagem == "plugada") %>% 
+  filter(participantes != "monitor") %>% 
+  gather("Nervoso",
+         "Temeroso",
+         "Feliz",
+         "Surpreso",
+         key = emocoes, value = probabilidades) %>%
+  ggplot(aes(frame, probabilidades, color = emocoes)) +
+  geom_smooth(alpha=0.5) + 
+  labs(x="Frames da atividade", y="Probabilidades", 
+       color="Estados Emocionais", title = "Atividade: Plugada") +
+  facet_wrap(~situacao) 
 
 
 
