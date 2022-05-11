@@ -1,81 +1,81 @@
-dupla,estudantes,sexo,serie,[q1]_ouviu_sobre_pc_antes_da_oficina,[q2]_havia_feito_algum_curso_programacao_ou_robotica,estilo_aprendizagem,estilo_popular,exp_ativa (x_1q),exp_concreta (y_2q),obs_reflexiva (x_3q),con_abstrata(y_4q),formar_aprender,tipo_teste,conceito,percentagem_conceito,nota_seq,seq,sequencia,nota_rep,rep,repeticao,nota_con,con,condicional,decomposicao,generalizacao,abstracao,algoritmico,media_conceito,ganho_geral,resultado_geral
-1,Anna Cecilia,F,2,Não,Não,convergente,pragmatico,36,20,37,28,abstrata_reflexiva,pre_teste,11 / 20,55,3,75,75,4,50,50,4,50,50,,,,,"57,5",-5,Não Teve Ganho
-1,Bruna Godê Pedrosa de Araujo.,F,2,Não,Não,convergente,pragmatico,33,26,28,32,abstrata_ativa,pre_teste,12 / 20,60,2,50,50,4,50,50,6,75,75,,,,,,,
-1,Anna Cecilia ,F,2,,,,,,,,,,pos_teste,10 / 20,50,3,75,75,3,"37,5",37.5,4,50,50,,,,,"52,5",,
-1,Bruna Godê Pedrosa de Araujo,F,2,,,,,,,,,,pos_teste,11 / 20,55,3,75,75,6,75,75,2,25,25,,,,,,,
-2,giovanna freitas pinheiro,F,1,Não,Sim,convergente,pragmatico,35,27,29,30,abstrata_ativa,pre_teste,14 / 20,70,3,75,75,5,"62,5",62.5,6,75,75,,,,,60,-15,Não Teve Ganho
-2,Hanna Açucena Silva Asevedo,F,1,Sim,Não,convergente,pragmatico,41,20,30,28,abstrata_ativa,pre_teste,10 / 20,50,2,50,50,4,50,50,4,50,50,,,,,,,
-2,Giovanna Freitas,F,1,,,,,,,,,,pos_teste,11 / 20,55,4,100,100,5,"62,5",62.5,2,25,25,,,,,45,,
-2,Hanna Açucena Silva Asevedo,F,1,,,,,,,,,,pos_teste,7 / 20,35,1,25,25,5,"62,5",62.5,1,"12,5",12.5,,,,,,,
-3,Anna luisa,F,1,Não,Não,acomodador,ativista,38,39,17,25,concreta_ativa,pre_teste,6 / 20,30,3,75,75,2,25,25,1,"12,5",12.5,,,,,40,5,Teve Ganho
-3,Nara Crasto Amorim,F,1,Não,Não,divergente,reflexivo,31,31,35,22,concreto_reflexiva,pre_teste,10 / 20,50,2,50,50,5,"62,5",62.5,3,"37,5",37.5,,,,,,,
-3,Anna Luisa,F,1,,,,,,,,,,pos_teste,7 / 20,35,2,50,50,3,"37,5",37.5,2,25,25,,,,,45,,
-3,Nara Crasto Amorim,F,1,,,,,,,,,,pos_teste,11 / 20,55,2,50,50,5,"62,5",62.5,4,50,50,,,,,,,
-4,alekxa do carmo lima,F,1,Não,Não,assimilador,teorico,27,27,34,29,abstrata_reflexiva,pre_teste,6 / 20,30,1,25,25,3,"37,5",37.5,2,25,25,,,,,"37,5","-12,5",Não Teve Ganho
-4,Danyelle Victoria Gomes Soares,F,1,Não,Não,convergente,pragmatico,34,24,31,30,abstrato_ativa,pre_teste,9 / 20,45,1,25,25,3,"37,5",37.5,5,"62,5",62.5,,,,,,,
-4,alekxa do carmo lima ,F,1,,,,,,,,,,pos_teste,4 / 20,20,0,0,0,3,"37,5",37.5,1,"12,5",12.5,,,,,25,,
-4,Danyelle Victoria ,F,1,,,,,,,,,,pos_teste,6 / 20,30,2,50,50,2,25,25,2,25,25,,,,,,,
-5,Matheus Mackenzie Venâncio Costa,M,1,Não,Não,assimilador,teorico,31,19,40,31,abstrata_reflexiva,pre_teste,12 / 20,60,4,100,100,4,50,50,4,50,50,,,,,"57,5",10,Teve Ganho
-5,rodrigo nascimento coutinho junior,M,1,Não,Não,acomodador,ativista,33,28,31,28,concreta_ativa,pre_teste,11 / 20,55,4,100,100,4,50,50,3,"37,5",37.5,,,,,,,
-5,Matheus Mackenzie Venâncio Costa,M,1,,,,,,,,,,pos_teste,14 / 20,70,4,100,100,6,75,75,4,50,50,,,,,"67,5",,
-5,rodrigo nascimento coutinho junior,M,1,,,,,,,,,,pos_teste,13 / 20,65,4,100,100,5,"62,5",62.5,4,50,50,,,,,,,
-6,iana,F,1,Não,Não,assimilador,teorico,29,25,36,28,abstrata_reflexiva,pre_teste,10 / 20,50,3,75,75,5,"62,5",62.5,2,25,25,,,,,"47,5","-2,5",Não Teve Ganho
-6,maria clara,F,1,Não,Não,divergente,reflexivo,31,30,39,20,concreta_reflexiva,pre_teste,9 / 20,45,2,50,50,4,50,50,3,"37,5",37.5,,,,,,,
-6,iana mahmood souto maior,F,1,,,,,,,,,,pos_teste,12 / 20,60,4,100,100,4,50,50,4,50,50,,,,,45,,
-6,Maria Clara,F,1,,,,,,,,,,pos_teste,6 / 20,30,2,50,50,4,50,50,0,0,0,,,,,,,
-7,dayvson alexandre,M,1,Não,Não,convergente,pragmatico,30,30,28,33,abstrato_ativa,pre_teste,7 / 20,35,3,75,75,2,25,25,2,25,25,,,,,45,"-2,5",Não Teve Ganho
-7,luís Miguel,M,1,Não,Sim,assimilador,teorico,31,19,36,31,abstrata_reflexiva,pre_teste,11 / 20,55,2,50,50,4,50,50,5,"62,5",62.5,,,,,,,
-7,dayvson alexandre ,M,1,,,,,,,,,,pos_teste,7 / 20,35,2,50,50,2,25,25,3,"37,5",37.5,,,,,"42,5",,
-7,luís Miguel,M,1,,,,,,,,,,pos_teste,10 / 20,50,3,75,75,5,"62,5",62.5,2,25,25,,,,,,,
-8,braian jessé martins de araújo,M,1,Sim,Não,acomodador,ativiista,40,30,26,25,concreta_ativa,pre_teste,10 / 20,50,3,75,75,4,50,50,3,"37,5",37.5,,,,,"57,5",5,Teve Ganho
-8,Isaias Matheus,M,1,Não,Não,convergente,pragmatico,40,20,35,24,abstrata_ativa,pre_teste,13 / 20,65,4,100,100,6,75,75,3,"37,5",37.5,,,,,,,
-8,braian jessé martins de araújo,M,1,,,,,,,,,,pos_teste,11 / 20,55,3,75,75,4,50,50,4,50,50,,,,,"62,5",,
-8,Isaias Matheus,M,1,,,,,,,,,,pos_teste,14 / 20,70,4,100,100,5,"62,5",62.5,5,"62,5",62.5,,,,,,,
-9,alison maarques amorim da silva,M,1,Não,Não,acomodador,ativista,30,35,25,28,concreta_ativa,pre_teste,8 / 20,40,2,50,50,3,"37,5",37.5,3,"37,5",37.5,,,,,45,"-12,5",Não Teve Ganho
-9,josé eduardo santos de oliveira ,M,1,Sim,Não,assimilador,teorico,26,25,40,27,abstrata_reflexiva,pre_teste,10 / 20,50,3,75,75,3,"37,5",37.5,4,50,50,,,,,,,
-9,alison marques amorim da silva,M,1,,,,,,,,,,pos_teste,4 / 20,20,1,25,25,2,25,25,1,"12,5",12.5,,,,,"32,5",,
-9,josé eduardo santos de oliveira,M,1,,,,,,,,,,pos_teste,9 / 20,45,4,100,100,3,"37,5",37.5,2,25,25,,,,,,,
-10,Joao Lucas neves dos santos,M,1,Não,Não,acomodador,ativista,34,30,33,25,concreta_ativa,pre_teste,10 / 20,50,3,75,75,4,50,50,3,"37,5",37.5,,,,,50,"2,5",Teve Ganho
-10,João Vitor França de Araújo,M,1,Não,Sim,assimilador,teorico,20,23,39,36,abstrata_reflexiva,pre_teste,10 / 20,50,3,75,75,5,"62,5",62.5,2,25,25,,,,,,,
-10,Joao Lucas neves,M,1,,,,,,,,,,pos_teste,8 / 20,40,2,50,50,4,50,50,2,25,25,,,,,"52,5",,
-10,João Vitor França de Araújo,M,1,,,,,,,,,,pos_teste,13 / 20,65,4,100,100,6,75,75,3,"37,5",37.5,,,,,,,
-11,maria clara silva ventura ,F,1,Não,Não,assimilador,teorico,29,25,33,32,abstrata_reflexiva,pre_teste,9 / 20,45,1,25,25,5,"62,5",62.5,3,"37,5",37.5,,,,,"52,5","2,5",Teve Ganho
-11,Sara Nascimento de Paula,F,1,Não,Sim,acomodador,ativista,34,30,28,26,concreta_ativa,pre_teste,12 / 20,60,4,100,100,6,75,75,2,25,25,,,,,,,
-11,MARIA CLARA SILVA VENTURA,F,1,,,,,,,,,,pos_teste,12 / 20,60,3,75,75,5,"62,5",62.5,4,50,50,,,,,55,,
-11,Sara Nascimento De Paula,F,1,,,,,,,,,,pos_teste,10 / 20,50,4,100,100,5,"62,5",62.5,1,"12,5",12.5,,,,,,,
-12,Chryslaine,F,2,Não,Sim,convergente,pragmatico,33,33,21,34,abstrata_ativa,pre_teste,10 / 20,50,1,25,25,6,75,75,3,"37,5",37.5,,,,,"47,5","-2,5",Não Teve Ganho
-12,nycole evelyn da conceição frutuoso,F,2,Não,Não,assimilador,teorico,28,20,41,34,abstrata_reflexiva,pre_teste,9 / 20,45,1,25,25,5,"62,5",62.5,3,"37,5",37.5,,,,,,,
-12,chryslaine,F,2,,,,,,,,,,pos_teste,7 / 20,35,2,50,50,3,"37,5",37.5,2,25,25,,,,,45,,
-12,nycole evelyn da conceição frutuoso,F,2,,,,,,,,,,pos_teste,11 / 20,55,3,75,75,5,"62,5",62.5,3,"37,5",37.5,,,,,,,
-13,João Andrade,M,2,Não,Não,convergente,pragmatico,34,21,24,40,abstrata_ativa,pre_teste,12 / 20,60,3,75,75,7,"87,5",87.5,2,25,25,,,,,"62,5","2,5",Teve Ganho
-13,maria victoria costa de queiroz,F,2,Não,Não,convergente,pragmatico,37,21,30,29,abstrata_ativa,pre_teste,13 / 20,65,3,75,75,5,"62,5",62.5,5,"62,5",62.5,,,,,,,
-13,João Andrade,M,2,,,,,,,,,,pos_teste,15 / 20,75,3,75,75,6,75,75,6,75,75,,,,,65,,
-13,Maria Victoria Costa De Queiroz,F,2,,,,,,,,,,pos_teste,11 / 20,55,3,75,75,6,75,75,2,25,25,,,,,,,
-14,Pedro Henrique Pereira de Souza,M,3,Não,Não,acomodador,ativista,36,29,28,26,concreta_ativa,pre_teste,4 / 20,20,1,25,25,3,"37,5",37.5,0,0,0,,,,,"47,5",15,Teve Ganho
-14,Ytalo de Oliveira Negromonte Lemos,M,2,Sim,Não,assimilador,teorico,31,15,33,34,abstrata_reflexiva,pre_teste,15 / 20,75,4,100,100,7,"87,5",87.5,4,50,50,,,,,,,
-14,Pedro Henrique Pereira de Souza,M,3,,,,,,,,,,pos_teste,10 / 20,50,4,100,100,4,50,50,2,25,25,,,,,"62,5",,
-14,Ytalo de Oliveira Negromonte Lemos,M,2,,,,,,,,,,pos_teste,15 / 20,75,4,100,100,7,"87,5",87.5,4,50,50,,,,,,,
-15,kauanny vitória ,F,1,Não,Não,acomodador,ativista,37,23,36,23,concreta_ativa,pre_teste,7 / 20,35,2,50,50,4,50,50,1,"12,5",12.5,,,,,65,"7,5",Teve Ganho
-15,Reinaldo Andriel Ramos Martins da Silva,M,1,Sim,Não,convergente,pragmatico,35,24,28,34,abstrata_ativa,pre_teste,19 / 20,95,4,100,100,8,100,100,7,"87,5",87.5,,,,,,,
-15,kauanny vitoria de santana costa,F,1,,,,,,,,,,pos_teste,12 / 20,60,3,75,75,5,"62,5",62.5,4,50,50,,,,,"72,5",,
-15,REINALDO ANDRIEL,M,1,,,,,,,,,,pos_teste,17 / 20,85,4,100,100,8,100,100,5,"62,5",62.5,,,,,,,
-16,Fábio Nascimento Nunes da Silva Filho,M,1,Sim,Não,convergente,pragmatico,30,20,30,39,abstrata_reflexiva,pre_teste,9 / 20,45,2,50,50,3,"37,5",37.5,4,50,50,,,,,40,10,Teve Ganho
-16,MARCOS VINICIUS  ,M,1,Não,Não,divergente,reflexivo,34,31,33,30,concreta_ativa,pre_teste,7 / 20,35,1,25,25,5,"62,5",62.5,1,"12,5",12.5,,,,,,,
-16,Fábio Nascimento Nunes da Silva Filho,M,1,,,,,,,,,,pos_teste,15 / 20,75,3,75,75,6,75,75,6,75,75,,,,,50,,
-16,MARCOS VINICIUS,M,1,,,,,,,,,,pos_teste,5 / 20,25,1,25,25,3,"37,5",37.5,1,"12,5",12.5,,,,,,,
-17,luis felipe barbosa alves silva ,M,1,Não,Não,convergente,pragmatico,35,26,24,34,abstrata_ativa,pre_teste,6 / 20,30,1,25,25,3,"37,5",37.5,2,25,25,,,,,30,"-2,5",Não Teve Ganho
-17,marcos andré,M,1,Sim ,Não,convergente,pragmatico,36,26,23,35,abstrata_ativa,pre_teste,6 / 20,30,2,50,50,2,25,25,2,25,25,,,,,,,
-17,luis felipe barbosa alves silva ,M,1,,,,,,,,,,pos_teste,7 / 20,35,1,25,25,4,50,50,2,25,25,,,,,"27,5",,
-17,marcos andre,M,1,,,,,,,,,,pos_teste,4 / 20,20,1,25,25,1,"12,5",12.5,2,25,25,,,,,,,
-18,cecilia freitas  pinto da silva,F,2,Não,Não,divergente,reflexivo,34,27,36,23,concreta_reflexica,pre_teste,13 / 20,65,4,100,100,6,75,75,3,"37,5",37.5,,,,,60,-10,Não Teve Ganho
-18,Pedro Henrique Oliveria de Lira,M,2,Sim,Não,assimilador,teorico,33,21,34,31,abstrata_reflexiva,pre_teste,11 / 20,55,3,75,75,5,"62,5",62.5,3,"37,5",37.5,,,,,,,
-18,Cecilia freitas pinto da silva ,F,2,,,,,,,,,,pos_teste,10 / 20,50,3,75,75,5,"62,5",62.5,2,25,25,,,,,50,,
-18,Pedro Henrique Oliveira de LIRA ,M,2,,,,,,,,,,pos_teste,10 / 20,50,3,75,75,6,75,75,1,"12,5",12.5,,,,,,,
-19,Luiz Gustavo Machado De Oliveira,M,3,Não,Não,convergente,pragmatico,39,19,33,30,abstrata_ativa,pre_teste,10 / 20,50,4,100,100,4,50,50,2,25,25,,,,,"42,5",5,Teve Ganho
-19,Juliane Marques,F,3,Não,Não,convergente,pragmatico,34,29,28,30,abstrata_ativa,pre_teste,7 / 20,35,2,50,50,3,"37,5",37.5,2,25,25,,,,,,,
-19,Luiz Gustavo,M,3,,,,,,,,,,pos_teste,11 / 20,55,4,100,100,4,50,50,3,"37,5",37.5,,,,,"47,5",,
-19,Juliane Marques,F,3,,,,,,,,,,pos_teste,8 / 20,40,2,50,50,5,"62,5",62.5,1,"12,5",12.5,,,,,,,
-20,kayalli vitoria barreto da silva,F,1,Não,Não,assimilador,teorico,23,25,39,30,abstrata_reflexiva,pre_teste,10 / 20,50,2,50,50,6,75,75,2,25,25,,,,,50,-10,Não Teve Ganho
-20,Sabrina ellen paulina da silva,F,1,Não,Não,assimilador,teorico,28,15,32,39,abstrata_reflexiva,pre_teste,10 / 20,50,2,50,50,7,"87,5",87.5,1,"12,5",12.5,,,,,,,
-20,kayalli vitoria ,F,1,,,,,,,,,,pos_teste,12 / 20,60,3,75,75,6,75,75,3,"37,5",37.5,,,,,40,,
-20,sabrina ellen paulina da silva,F,1,,,,,,,,,,pos_teste,4 / 20,20,1,25,25,3,"37,5",37.5,0,0,0,,,,,,,
+dupla,estudantes,sexo,serie,[q1]_ouviu_sobre_pc_antes_da_oficina,[q2]_havia_feito_algum_curso_programacao_ou_robotica,estilo_aprendizagem,estilo_popular,exp_ativa (x_1q),exp_concreta (y_2q),obs_reflexiva (x_3q),con_abstrata(y_4q),formar_aprender,tipo_teste,conceito,percentagem_conceito,nota_seq,seq,sequencia,nota_rep,rep,repeticao,nota_con,con,condicional,decomposicao,generalizacao,abstracao,algoritmico,m_geral,media_geral,n_geral,nota_geral,resultado_geral
+1,Anna Cecilia,F,2,Não,Não,convergente,pragmatico,36,20,37,28,abstrata_reflexiva,pre_teste,11 / 20,55,3,75,75,4,50,50,4,50,50,,,,,"57,5",57.5,-5,-5,Não Teve Ganho
+1,Bruna Godê Pedrosa de Araujo.,F,2,Não,Não,convergente,pragmatico,33,26,28,32,abstrata_ativa,pre_teste,12 / 20,60,2,50,50,4,50,50,6,75,75,,,,,,,,,
+1,Anna Cecilia ,F,2,,,,,,,,,,pos_teste,10 / 20,50,3,75,75,3,"37,5",37.5,4,50,50,,,,,"52,5",52.5,,,
+1,Bruna Godê Pedrosa de Araujo,F,2,,,,,,,,,,pos_teste,11 / 20,55,3,75,75,6,75,75,2,25,25,,,,,,,,,
+2,giovanna freitas pinheiro,F,1,Não,Sim,convergente,pragmatico,35,27,29,30,abstrata_ativa,pre_teste,14 / 20,70,3,75,75,5,"62,5",62.5,6,75,75,,,,,60,60,-15,-15,Não Teve Ganho
+2,Hanna Açucena Silva Asevedo,F,1,Sim,Não,convergente,pragmatico,41,20,30,28,abstrata_ativa,pre_teste,10 / 20,50,2,50,50,4,50,50,4,50,50,,,,,,,,,
+2,Giovanna Freitas,F,1,,,,,,,,,,pos_teste,11 / 20,55,4,100,100,5,"62,5",62.5,2,25,25,,,,,45,45,,,
+2,Hanna Açucena Silva Asevedo,F,1,,,,,,,,,,pos_teste,7 / 20,35,1,25,25,5,"62,5",62.5,1,"12,5",12.5,,,,,,,,,
+3,Anna luisa,F,1,Não,Não,acomodador,ativista,38,39,17,25,concreta_ativa,pre_teste,6 / 20,30,3,75,75,2,25,25,1,"12,5",12.5,,,,,40,40,5,5,Teve Ganho
+3,Nara Crasto Amorim,F,1,Não,Não,divergente,reflexivo,31,31,35,22,concreto_reflexiva,pre_teste,10 / 20,50,2,50,50,5,"62,5",62.5,3,"37,5",37.5,,,,,,,,,
+3,Anna Luisa,F,1,,,,,,,,,,pos_teste,7 / 20,35,2,50,50,3,"37,5",37.5,2,25,25,,,,,45,45,,,
+3,Nara Crasto Amorim,F,1,,,,,,,,,,pos_teste,11 / 20,55,2,50,50,5,"62,5",62.5,4,50,50,,,,,,,,,
+4,alekxa do carmo lima,F,1,Não,Não,assimilador,teorico,27,27,34,29,abstrata_reflexiva,pre_teste,6 / 20,30,1,25,25,3,"37,5",37.5,2,25,25,,,,,"37,5",37.5,"-12,5",-12.5,Não Teve Ganho
+4,Danyelle Victoria Gomes Soares,F,1,Não,Não,convergente,pragmatico,34,24,31,30,abstrato_ativa,pre_teste,9 / 20,45,1,25,25,3,"37,5",37.5,5,"62,5",62.5,,,,,,,,,
+4,alekxa do carmo lima ,F,1,,,,,,,,,,pos_teste,4 / 20,20,0,0,0,3,"37,5",37.5,1,"12,5",12.5,,,,,25,25,,,
+4,Danyelle Victoria ,F,1,,,,,,,,,,pos_teste,6 / 20,30,2,50,50,2,25,25,2,25,25,,,,,,,,,
+5,Matheus Mackenzie Venâncio Costa,M,1,Não,Não,assimilador,teorico,31,19,40,31,abstrata_reflexiva,pre_teste,12 / 20,60,4,100,100,4,50,50,4,50,50,,,,,"57,5",57.5,10,10,Teve Ganho
+5,rodrigo nascimento coutinho junior,M,1,Não,Não,acomodador,ativista,33,28,31,28,concreta_ativa,pre_teste,11 / 20,55,4,100,100,4,50,50,3,"37,5",37.5,,,,,,,,,
+5,Matheus Mackenzie Venâncio Costa,M,1,,,,,,,,,,pos_teste,14 / 20,70,4,100,100,6,75,75,4,50,50,,,,,"67,5",67.5,,,
+5,rodrigo nascimento coutinho junior,M,1,,,,,,,,,,pos_teste,13 / 20,65,4,100,100,5,"62,5",62.5,4,50,50,,,,,,,,,
+6,iana,F,1,Não,Não,assimilador,teorico,29,25,36,28,abstrata_reflexiva,pre_teste,10 / 20,50,3,75,75,5,"62,5",62.5,2,25,25,,,,,"47,5",47.5,"-2,5",-2.5,Não Teve Ganho
+6,maria clara,F,1,Não,Não,divergente,reflexivo,31,30,39,20,concreta_reflexiva,pre_teste,9 / 20,45,2,50,50,4,50,50,3,"37,5",37.5,,,,,,,,,
+6,iana mahmood souto maior,F,1,,,,,,,,,,pos_teste,12 / 20,60,4,100,100,4,50,50,4,50,50,,,,,45,45,,,
+6,Maria Clara,F,1,,,,,,,,,,pos_teste,6 / 20,30,2,50,50,4,50,50,0,0,0,,,,,,,,,
+7,dayvson alexandre,M,1,Não,Não,convergente,pragmatico,30,30,28,33,abstrato_ativa,pre_teste,7 / 20,35,3,75,75,2,25,25,2,25,25,,,,,45,45,"-2,5",-2.5,Não Teve Ganho
+7,luís Miguel,M,1,Não,Sim,assimilador,teorico,31,19,36,31,abstrata_reflexiva,pre_teste,11 / 20,55,2,50,50,4,50,50,5,"62,5",62.5,,,,,,,,,
+7,dayvson alexandre ,M,1,,,,,,,,,,pos_teste,7 / 20,35,2,50,50,2,25,25,3,"37,5",37.5,,,,,"42,5",42.5,,,
+7,luís Miguel,M,1,,,,,,,,,,pos_teste,10 / 20,50,3,75,75,5,"62,5",62.5,2,25,25,,,,,,,,,
+8,braian jessé martins de araújo,M,1,Sim,Não,acomodador,ativiista,40,30,26,25,concreta_ativa,pre_teste,10 / 20,50,3,75,75,4,50,50,3,"37,5",37.5,,,,,"57,5",57.5,5,5,Teve Ganho
+8,Isaias Matheus,M,1,Não,Não,convergente,pragmatico,40,20,35,24,abstrata_ativa,pre_teste,13 / 20,65,4,100,100,6,75,75,3,"37,5",37.5,,,,,,,,,
+8,braian jessé martins de araújo,M,1,,,,,,,,,,pos_teste,11 / 20,55,3,75,75,4,50,50,4,50,50,,,,,"62,5",62.5,,,
+8,Isaias Matheus,M,1,,,,,,,,,,pos_teste,14 / 20,70,4,100,100,5,"62,5",62.5,5,"62,5",62.5,,,,,,,,,
+9,alison maarques amorim da silva,M,1,Não,Não,acomodador,ativista,30,35,25,28,concreta_ativa,pre_teste,8 / 20,40,2,50,50,3,"37,5",37.5,3,"37,5",37.5,,,,,45,45,"-12,5",-12.5,Não Teve Ganho
+9,josé eduardo santos de oliveira ,M,1,Sim,Não,assimilador,teorico,26,25,40,27,abstrata_reflexiva,pre_teste,10 / 20,50,3,75,75,3,"37,5",37.5,4,50,50,,,,,,,,,
+9,alison marques amorim da silva,M,1,,,,,,,,,,pos_teste,4 / 20,20,1,25,25,2,25,25,1,"12,5",12.5,,,,,"32,5",32.5,,,
+9,josé eduardo santos de oliveira,M,1,,,,,,,,,,pos_teste,9 / 20,45,4,100,100,3,"37,5",37.5,2,25,25,,,,,,,,,
+10,Joao Lucas neves dos santos,M,1,Não,Não,acomodador,ativista,34,30,33,25,concreta_ativa,pre_teste,10 / 20,50,3,75,75,4,50,50,3,"37,5",37.5,,,,,50,50,"2,5",2.5,Teve Ganho
+10,João Vitor França de Araújo,M,1,Não,Sim,assimilador,teorico,20,23,39,36,abstrata_reflexiva,pre_teste,10 / 20,50,3,75,75,5,"62,5",62.5,2,25,25,,,,,,,,,
+10,Joao Lucas neves,M,1,,,,,,,,,,pos_teste,8 / 20,40,2,50,50,4,50,50,2,25,25,,,,,"52,5",52.5,,,
+10,João Vitor França de Araújo,M,1,,,,,,,,,,pos_teste,13 / 20,65,4,100,100,6,75,75,3,"37,5",37.5,,,,,,,,,
+11,maria clara silva ventura ,F,1,Não,Não,assimilador,teorico,29,25,33,32,abstrata_reflexiva,pre_teste,9 / 20,45,1,25,25,5,"62,5",62.5,3,"37,5",37.5,,,,,"52,5",52.5,"2,5",2.5,Teve Ganho
+11,Sara Nascimento de Paula,F,1,Não,Sim,acomodador,ativista,34,30,28,26,concreta_ativa,pre_teste,12 / 20,60,4,100,100,6,75,75,2,25,25,,,,,,,,,
+11,MARIA CLARA SILVA VENTURA,F,1,,,,,,,,,,pos_teste,12 / 20,60,3,75,75,5,"62,5",62.5,4,50,50,,,,,55,55,,,
+11,Sara Nascimento De Paula,F,1,,,,,,,,,,pos_teste,10 / 20,50,4,100,100,5,"62,5",62.5,1,"12,5",12.5,,,,,,,,,
+12,Chryslaine,F,2,Não,Sim,convergente,pragmatico,33,33,21,34,abstrata_ativa,pre_teste,10 / 20,50,1,25,25,6,75,75,3,"37,5",37.5,,,,,"47,5",47.5,"-2,5",-2.5,Não Teve Ganho
+12,nycole evelyn da conceição frutuoso,F,2,Não,Não,assimilador,teorico,28,20,41,34,abstrata_reflexiva,pre_teste,9 / 20,45,1,25,25,5,"62,5",62.5,3,"37,5",37.5,,,,,,,,,
+12,chryslaine,F,2,,,,,,,,,,pos_teste,7 / 20,35,2,50,50,3,"37,5",37.5,2,25,25,,,,,45,45,,,
+12,nycole evelyn da conceição frutuoso,F,2,,,,,,,,,,pos_teste,11 / 20,55,3,75,75,5,"62,5",62.5,3,"37,5",37.5,,,,,,,,,
+13,João Andrade,M,2,Não,Não,convergente,pragmatico,34,21,24,40,abstrata_ativa,pre_teste,12 / 20,60,3,75,75,7,"87,5",87.5,2,25,25,,,,,"62,5",62.5,"2,5",2.5,Teve Ganho
+13,maria victoria costa de queiroz,F,2,Não,Não,convergente,pragmatico,37,21,30,29,abstrata_ativa,pre_teste,13 / 20,65,3,75,75,5,"62,5",62.5,5,"62,5",62.5,,,,,,,,,
+13,João Andrade,M,2,,,,,,,,,,pos_teste,15 / 20,75,3,75,75,6,75,75,6,75,75,,,,,65,65,,,
+13,Maria Victoria Costa De Queiroz,F,2,,,,,,,,,,pos_teste,11 / 20,55,3,75,75,6,75,75,2,25,25,,,,,,,,,
+14,Pedro Henrique Pereira de Souza,M,3,Não,Não,acomodador,ativista,36,29,28,26,concreta_ativa,pre_teste,4 / 20,20,1,25,25,3,"37,5",37.5,0,0,0,,,,,"47,5",47.5,15,15,Teve Ganho
+14,Ytalo de Oliveira Negromonte Lemos,M,2,Sim,Não,assimilador,teorico,31,15,33,34,abstrata_reflexiva,pre_teste,15 / 20,75,4,100,100,7,"87,5",87.5,4,50,50,,,,,,,,,
+14,Pedro Henrique Pereira de Souza,M,3,,,,,,,,,,pos_teste,10 / 20,50,4,100,100,4,50,50,2,25,25,,,,,"62,5",62.5,,,
+14,Ytalo de Oliveira Negromonte Lemos,M,2,,,,,,,,,,pos_teste,15 / 20,75,4,100,100,7,"87,5",87.5,4,50,50,,,,,,,,,
+15,kauanny vitória ,F,1,Não,Não,acomodador,ativista,37,23,36,23,concreta_ativa,pre_teste,7 / 20,35,2,50,50,4,50,50,1,"12,5",12.5,,,,,65,65,"7,5",7.5,Teve Ganho
+15,Reinaldo Andriel Ramos Martins da Silva,M,1,Sim,Não,convergente,pragmatico,35,24,28,34,abstrata_ativa,pre_teste,19 / 20,95,4,100,100,8,100,100,7,"87,5",87.5,,,,,,,,,
+15,kauanny vitoria de santana costa,F,1,,,,,,,,,,pos_teste,12 / 20,60,3,75,75,5,"62,5",62.5,4,50,50,,,,,"72,5",72.5,,,
+15,REINALDO ANDRIEL,M,1,,,,,,,,,,pos_teste,17 / 20,85,4,100,100,8,100,100,5,"62,5",62.5,,,,,,,,,
+16,Fábio Nascimento Nunes da Silva Filho,M,1,Sim,Não,convergente,pragmatico,30,20,30,39,abstrata_reflexiva,pre_teste,9 / 20,45,2,50,50,3,"37,5",37.5,4,50,50,,,,,40,40,10,10,Teve Ganho
+16,MARCOS VINICIUS  ,M,1,Não,Não,divergente,reflexivo,34,31,33,30,concreta_ativa,pre_teste,7 / 20,35,1,25,25,5,"62,5",62.5,1,"12,5",12.5,,,,,,,,,
+16,Fábio Nascimento Nunes da Silva Filho,M,1,,,,,,,,,,pos_teste,15 / 20,75,3,75,75,6,75,75,6,75,75,,,,,50,50,,,
+16,MARCOS VINICIUS,M,1,,,,,,,,,,pos_teste,5 / 20,25,1,25,25,3,"37,5",37.5,1,"12,5",12.5,,,,,,,,,
+17,luis felipe barbosa alves silva ,M,1,Não,Não,convergente,pragmatico,35,26,24,34,abstrata_ativa,pre_teste,6 / 20,30,1,25,25,3,"37,5",37.5,2,25,25,,,,,30,30,"-2,5",-2.5,Não Teve Ganho
+17,marcos andré,M,1,Sim ,Não,convergente,pragmatico,36,26,23,35,abstrata_ativa,pre_teste,6 / 20,30,2,50,50,2,25,25,2,25,25,,,,,,,,,
+17,luis felipe barbosa alves silva ,M,1,,,,,,,,,,pos_teste,7 / 20,35,1,25,25,4,50,50,2,25,25,,,,,"27,5",27.5,,,
+17,marcos andre,M,1,,,,,,,,,,pos_teste,4 / 20,20,1,25,25,1,"12,5",12.5,2,25,25,,,,,,,,,
+18,cecilia freitas  pinto da silva,F,2,Não,Não,divergente,reflexivo,34,27,36,23,concreta_reflexica,pre_teste,13 / 20,65,4,100,100,6,75,75,3,"37,5",37.5,,,,,60,60,-10,-10,Não Teve Ganho
+18,Pedro Henrique Oliveria de Lira,M,2,Sim,Não,assimilador,teorico,33,21,34,31,abstrata_reflexiva,pre_teste,11 / 20,55,3,75,75,5,"62,5",62.5,3,"37,5",37.5,,,,,,,,,
+18,Cecilia freitas pinto da silva ,F,2,,,,,,,,,,pos_teste,10 / 20,50,3,75,75,5,"62,5",62.5,2,25,25,,,,,50,50,,,
+18,Pedro Henrique Oliveira de LIRA ,M,2,,,,,,,,,,pos_teste,10 / 20,50,3,75,75,6,75,75,1,"12,5",12.5,,,,,,,,,
+19,Luiz Gustavo Machado De Oliveira,M,3,Não,Não,convergente,pragmatico,39,19,33,30,abstrata_ativa,pre_teste,10 / 20,50,4,100,100,4,50,50,2,25,25,,,,,"42,5",42.5,5,5,Teve Ganho
+19,Juliane Marques,F,3,Não,Não,convergente,pragmatico,34,29,28,30,abstrata_ativa,pre_teste,7 / 20,35,2,50,50,3,"37,5",37.5,2,25,25,,,,,,,,,
+19,Luiz Gustavo,M,3,,,,,,,,,,pos_teste,11 / 20,55,4,100,100,4,50,50,3,"37,5",37.5,,,,,"47,5",47.5,,,
+19,Juliane Marques,F,3,,,,,,,,,,pos_teste,8 / 20,40,2,50,50,5,"62,5",62.5,1,"12,5",12.5,,,,,,,,,
+20,kayalli vitoria barreto da silva,F,1,Não,Não,assimilador,teorico,23,25,39,30,abstrata_reflexiva,pre_teste,10 / 20,50,2,50,50,6,75,75,2,25,25,,,,,50,50,-10,-10,Não Teve Ganho
+20,Sabrina ellen paulina da silva,F,1,Não,Não,assimilador,teorico,28,15,32,39,abstrata_reflexiva,pre_teste,10 / 20,50,2,50,50,7,"87,5",87.5,1,"12,5",12.5,,,,,,,,,
+20,kayalli vitoria ,F,1,,,,,,,,,,pos_teste,12 / 20,60,3,75,75,6,75,75,3,"37,5",37.5,,,,,40,40,,,
+20,sabrina ellen paulina da silva,F,1,,,,,,,,,,pos_teste,4 / 20,20,1,25,25,3,"37,5",37.5,0,0,0,,,,,,,,,
