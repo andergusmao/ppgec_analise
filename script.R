@@ -2,8 +2,10 @@
 
 library(tidyverse)
 
+
 #carregando a base de dados geral
-dados <- read.csv("ANÁLISE - Questionários_ Atividades - index.csv")
+dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho&nao_ganho_habilidades_pc_.csv")
+#dados <- read.csv("ANÁLISE - Questionários_ Atividades - index.csv")
 #dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
 view(dados)
 
@@ -16,11 +18,16 @@ dados %>% ggplot(aes(resultado_geral, nota_geral, fill=resultado_geral, color=re
 
 
 
+#plotando o gráfico das habilidades de PC
+dados %>% ggplot(aes(tipo_teste, algoritmo, fill=tipo_teste)) + geom_boxplot()
 
 
 
 
-#plotando o gráfico do ganho e não ganho do pré e pós teste por sexo
+
+
+
+´#plotando o gráfico do ganho e não ganho do pré e pós teste por sexo
 dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=sexo)) + 
   geom_boxplot(alpha=0.3) + geom_jitter() +
   labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste por Sexo', fill='Sexo', color=NULL)+
