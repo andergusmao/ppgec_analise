@@ -27,7 +27,7 @@ dados %>% ggplot(aes(tipo_teste, algoritmo, fill=tipo_teste)) + geom_boxplot()
 
 
 
-´#plotando o gráfico do ganho e não ganho do pré e pós teste por sexo
+#plotando o gráfico do ganho e não ganho do pré e pós teste por sexo
 dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=sexo)) + 
   geom_boxplot(alpha=0.3) + geom_jitter() +
   labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste por Sexo', fill='Sexo', color=NULL)+
