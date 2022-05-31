@@ -1,0 +1,81 @@
+tipo_teste,situacao,questões,abstracao,h_abstracao,decomposicao,h_decomposicao,reconhecimento_de_padroes,h_reconhecimento_de_padroes,algoritmo,h_algoritmo
+Pré Teste,Teve Ganho,1,16,abstracao,,,,,16,algoritmo
+Pós Teste,Teve Ganho,1,18,abstracao,,,,,18,algoritmo
+Pré Teste,Teve Ganho,2,13,abstracao,,,,,13,algoritmo
+Pós Teste,Teve Ganho,2,16,abstracao,,,,,16,algoritmo
+Pré Teste,Teve Ganho,3,9,abstracao,,,,,9,algoritmo
+Pós Teste,Teve Ganho,3,13,abstracao,,,,,13,algoritmo
+Pré Teste,Teve Ganho,4,,,7,decomposicao,7,reconhecimento_de_padroes,7,algoritmo
+Pós Teste,Teve Ganho,4,,,9,decomposicao,9,reconhecimento_de_padroes,9,algoritmo
+Pré Teste,Teve Ganho,5,,,15,decomposicao,15,reconhecimento_de_padroes,15,algoritmo
+Pós Teste,Teve Ganho,5,,,17,decomposicao,17,reconhecimento_de_padroes,17,algoritmo
+Pré Teste,Teve Ganho,6,,,13,decomposicao,13,reconhecimento_de_padroes,13,algoritmo
+Pós Teste,Teve Ganho,6,,,15,decomposicao,15,reconhecimento_de_padroes,15,algoritmo
+Pré Teste,Teve Ganho,7,7,abstracao,7,decomposicao,,,7,algoritmo
+Pós Teste,Teve Ganho,7,5,abstracao,5,decomposicao,,,5,algoritmo
+Pré Teste,Teve Ganho,8,,,,,2,reconhecimento_de_padroes,2,algoritmo
+Pós Teste,Teve Ganho,8,,,,,7,reconhecimento_de_padroes,7,algoritmo
+Pré Teste,Teve Ganho,9,,,,,17,reconhecimento_de_padroes,17,algoritmo
+Pós Teste,Teve Ganho,9,,,,,16,reconhecimento_de_padroes,16,algoritmo
+Pré Teste,Teve Ganho,10,,,10,decomposicao,10,reconhecimento_de_padroes,10,algoritmo
+Pós Teste,Teve Ganho,10,,,10,decomposicao,10,reconhecimento_de_padroes,10,algoritmo
+Pré Teste,Teve Ganho,11,11,abstracao,11,decomposicao,11,reconhecimento_de_padroes,11,algoritmo
+Pós Teste,Teve Ganho,11,14,abstracao,14,decomposicao,14,reconhecimento_de_padroes,14,algoritmo
+Pré Teste,Teve Ganho,12,4,abstracao,4,decomposicao,4,reconhecimento_de_padroes,4,algoritmo
+Pós Teste,Teve Ganho,12,4,abstracao,4,decomposicao,4,reconhecimento_de_padroes,4,algoritmo
+Pré Teste,Teve Ganho,13,9,abstracao,9,decomposicao,,,9,algoritmo
+Pós Teste,Teve Ganho,13,8,abstracao,8,decomposicao,,,8,algoritmo
+Pré Teste,Teve Ganho,14,4,abstracao,,,4,reconhecimento_de_padroes,4,algoritmo
+Pós Teste,Teve Ganho,14,8,abstracao,,,8,reconhecimento_de_padroes,8,algoritmo
+Pré Teste,Teve Ganho,15,3,abstracao,3,decomposicao,3,reconhecimento_de_padroes,3,algoritmo
+Pós Teste,Teve Ganho,15,7,abstracao,7,decomposicao,7,reconhecimento_de_padroes,7,algoritmo
+Pré Teste,Teve Ganho,16,,,,,,,2,algoritmo
+Pós Teste,Teve Ganho,16,,,,,,,3,algoritmo
+Pré Teste,Teve Ganho,17,,,,,4,reconhecimento_de_padroes,4,algoritmo
+Pós Teste,Teve Ganho,17,,,,,4,reconhecimento_de_padroes,4,algoritmo
+Pré Teste,Teve Ganho,18,,,,,6,reconhecimento_de_padroes,6,algoritmo
+Pós Teste,Teve Ganho,18,,,,,13,reconhecimento_de_padroes,13,algoritmo
+Pré Teste,Teve Ganho,19,,,,,,,5,algoritmo
+Pós Teste,Teve Ganho,19,,,,,,,9,algoritmo
+Pré Teste,Teve Ganho,20,,,,,8,reconhecimento_de_padroes,8,algoritmo
+Pós Teste,Teve Ganho,20,,,,,12,reconhecimento_de_padroes,12,algoritmo
+Pré Teste,Não Teve Ganho,1,21,abstracao,,,,,21,algoritmo
+Pós Teste,Não Teve Ganho,1,20,abstracao,,,,,20,algoritmo
+Pré Teste,Não Teve Ganho,2,15,abstracao,,,,,15,algoritmo
+Pós Teste,Não Teve Ganho,2,14,abstracao,,,,,14,algoritmo
+Pré Teste,Não Teve Ganho,3,13,abstracao,,,,,13,algoritmo
+Pós Teste,Não Teve Ganho,3,12,abstracao,,,,,12,algoritmo
+Pré Teste,Não Teve Ganho,4,,,6,decomposicao,6,reconhecimento_de_padroes,6,algoritmo
+Pós Teste,Não Teve Ganho,4,,,7,decomposicao,7,reconhecimento_de_padroes,7,algoritmo
+Pré Teste,Não Teve Ganho,5,,,17,decomposicao,17,reconhecimento_de_padroes,17,algoritmo
+Pós Teste,Não Teve Ganho,5,,,15,decomposicao,15,reconhecimento_de_padroes,15,algoritmo
+Pré Teste,Não Teve Ganho,6,,,17,decomposicao,17,reconhecimento_de_padroes,17,algoritmo
+Pós Teste,Não Teve Ganho,6,,,18,decomposicao,18,reconhecimento_de_padroes,18,algoritmo
+Pré Teste,Não Teve Ganho,7,11,abstracao,11,decomposicao,,,11,algoritmo
+Pós Teste,Não Teve Ganho,7,7,abstracao,7,decomposicao,,,7,algoritmo
+Pré Teste,Não Teve Ganho,8,,,,,4,reconhecimento_de_padroes,4,algoritmo
+Pós Teste,Não Teve Ganho,8,,,,,8,reconhecimento_de_padroes,8,algoritmo
+Pré Teste,Não Teve Ganho,9,,,,,19,reconhecimento_de_padroes,19,algoritmo
+Pós Teste,Não Teve Ganho,9,,,,,15,reconhecimento_de_padroes,15,algoritmo
+Pré Teste,Não Teve Ganho,10,,,11,decomposicao,11,reconhecimento_de_padroes,11,algoritmo
+Pós Teste,Não Teve Ganho,10,,,11,decomposicao,11,reconhecimento_de_padroes,11,algoritmo
+Pré Teste,Não Teve Ganho,11,11,abstracao,11,decomposicao,11,reconhecimento_de_padroes,11,algoritmo
+Pós Teste,Não Teve Ganho,11,13,abstracao,13,decomposicao,13,reconhecimento_de_padroes,13,algoritmo
+Pré Teste,Não Teve Ganho,12,9,abstracao,9,decomposicao,9,reconhecimento_de_padroes,9,algoritmo
+Pós Teste,Não Teve Ganho,12,4,abstracao,4,decomposicao,4,reconhecimento_de_padroes,4,algoritmo
+Pré Teste,Não Teve Ganho,13,11,abstracao,11,decomposicao,,,11,algoritmo
+Pós Teste,Não Teve Ganho,13,7,abstracao,7,decomposicao,,,7,algoritmo
+Pré Teste,Não Teve Ganho,14,10,abstracao,,,10,reconhecimento_de_padroes,10,algoritmo
+Pós Teste,Não Teve Ganho,14,5,abstracao,,,5,reconhecimento_de_padroes,5,algoritmo
+Pré Teste,Não Teve Ganho,15,7,abstracao,7,decomposicao,7,reconhecimento_de_padroes,7,algoritmo
+Pós Teste,Não Teve Ganho,15,5,abstracao,5,decomposicao,5,reconhecimento_de_padroes,5,algoritmo
+Pré Teste,Não Teve Ganho,16,,,,,,,8,algoritmo
+Pós Teste,Não Teve Ganho,16,,,,,,,5,algoritmo
+Pré Teste,Não Teve Ganho,17,,,,,6,reconhecimento_de_padroes,6,algoritmo
+Pós Teste,Não Teve Ganho,17,,,,,4,reconhecimento_de_padroes,4,algoritmo
+Pré Teste,Não Teve Ganho,18,,,,,10,reconhecimento_de_padroes,10,algoritmo
+Pós Teste,Não Teve Ganho,18,,,,,4,reconhecimento_de_padroes,4,algoritmo
+Pré Teste,Não Teve Ganho,19,,,,,,,13,algoritmo
+Pós Teste,Não Teve Ganho,19,,,,,,,4,algoritmo
+Pré Teste,Não Teve Ganho,20,,,,,14,reconhecimento_de_padroes,14,algoritmo
+Pós Teste,Não Teve Ganho,20,,,,,8,reconhecimento_de_padroes,8,algoritmo

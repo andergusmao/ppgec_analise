@@ -4,7 +4,7 @@ library(gtsummary) #pacote para gerar tabelas
 #
 
 #importando a base de dados
-dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
+dados <- read.csv("ANÁLISE - Questionários_ Atividades - pre&pos&teste_individual.csv")
 view(dados)
 
 
@@ -14,6 +14,8 @@ dados %>%
     sexo,
     serie,
     estilo_aprendizagem,
+    Já.ouviu.sobre.Pensamento.Computacional.antes.dessa.Oficina.,
+    Havia.feito.algum.curso.de.programação.ou.robótica.,
     resultado_geral) %>% 
   tbl_summary(
     by = resultado_geral) %>% #o by informa a varilavel ganho e nao ganho

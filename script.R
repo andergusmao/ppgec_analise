@@ -2,92 +2,136 @@
 
 library(tidyverse)
 
-
-#carregando a base de dados geral
-dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho&nao_ganho_habilidades_pc_.csv")
-#dados <- read.csv("ANÁLISE - Questionários_ Atividades - index.csv")
-#dados <- read.csv("ANÁLISE - Questionários_ Atividades - ganho_naoganho.csv")
+#plotando o gráfico do desempenho individual do pré e pós teste
+dados <- read.csv("ANÁLISE - Questionários_ Atividades - pre&pos&teste_individual.csv")
 view(dados)
 
-#plotando o gráfico do ganho e não ganho do pré e pós teste 
-#title='Ganho de Aprendizagem do Pré e Pós Teste' 
-dados %>% ggplot(aes(resultado_geral, nota_geral, fill=resultado_geral, color=resultado_geral)) + 
-  geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, fill=NULL, color=NULL)+
-  theme_minimal()
+dados %>% ggplot(aes(resultado_geral, ganho_geral, 
+                    fill = resultado_geral, color = resultado_geral)) + 
+  geom_errorbar(stat = "boxplot", width = 0.2, 
+                position = position_dodge(width = 0.6)) +
+  geom_boxplot(width = 0.6, alpha = 0.1, outlier.color = NA,
+               outlier.shape = 1, outlier.size = 2) +
+  geom_jitter(alpha = 0.6, height = 0, width = 0.29,
+              color = "black") +
+  labs(y = NULL, x = NULL, fill = NULL, 
+       color = NULL ) + 
+  theme_minimal() + 
+  theme(legend.position = "bottom") +
+  stat_summary(fun = mean, geom = 'point', 
+               col='brown4', shape=8)
+
+
 
 
 
 #plotando o gráfico das habilidades de PC
-dados %>% ggplot(aes(tipo_teste, algoritmo, fill=tipo_teste)) + geom_boxplot()
+h_pc <- read.csv("ANÁLISE - Questionários_ Atividades - habilidades_pc_individual.csv")
+view(h_pc)
+
+#title='Abstração'
+h_pc %>% ggplot(aes(tipo_teste, abstracao, 
+                     fill = situacao, color = situacao)) + 
+  geom_errorbar(stat = "boxplot", width = 0.2, 
+                position = position_dodge(width = 0.6)) +
+  geom_boxplot(width = 0.6, alpha = 0.1, outlier.color = NA,
+               outlier.shape = 1, outlier.size = 2) +
+  geom_jitter(alpha = 0.6, height = 0, width = 0.29,
+              color = "black") +
+  labs(y = NULL, x = NULL, fill = NULL, 
+       color = NULL ) + 
+  theme_minimal() + 
+  theme(legend.position = "bottom")
+
+
+
+#title='Decomposição'
+h_pc %>% ggplot(aes(tipo_teste, decomposicao, 
+                    fill = situacao, color = situacao)) + 
+  geom_errorbar(stat = "boxplot", width = 0.2, 
+                position = position_dodge(width = 0.6)) +
+  geom_boxplot(width = 0.6, alpha = 0.1, outlier.color = NA,
+               outlier.shape = 1, outlier.size = 2) +
+  geom_jitter(alpha = 0.6, height = 0, width = 0.29,
+              color = "black") +
+  labs(y = NULL, x = NULL, fill = NULL, 
+       color = NULL ) + 
+  theme_minimal() + 
+  theme(legend.position = "bottom")
+
+
+
+#title='Reconhecimento de Padrões'
+h_pc %>% ggplot(aes(tipo_teste, reconhecimento_de_padroes, 
+                    fill = situacao, color = situacao)) + 
+  geom_errorbar(stat = "boxplot", width = 0.2, 
+                position = position_dodge(width = 0.6)) +
+  geom_boxplot(width = 0.6, alpha = 0.1, outlier.color = NA,
+               outlier.shape = 1, outlier.size = 2) +
+  geom_jitter(alpha = 0.6, height = 0, width = 0.29,
+              color = "black") +
+  labs(y = NULL, x = NULL, fill = NULL, 
+       color = NULL ) + 
+  theme_minimal() + 
+  theme(legend.position = "bottom")
+
+
+
+#title='Algoritmo'
+h_pc %>% ggplot(aes(tipo_teste, algoritmo, 
+                    fill = situacao, color = situacao)) + 
+  geom_errorbar(stat = "boxplot", width = 0.2, 
+                position = position_dodge(width = 0.6)) +
+  geom_boxplot(width = 0.6, alpha = 0.1, outlier.color = NA,
+               outlier.shape = 1, outlier.size = 2) +
+  geom_jitter(alpha = 0.6, height = 0, width = 0.29,
+              color = "black") +
+  labs(y = NULL, x = NULL, fill = NULL, 
+       color = NULL ) + 
+  theme_minimal() + 
+  theme(legend.position = "bottom")
 
 
 
 
 
+ #plotando o gráfico do Perfil do Estudante com Teve Ganho e Não Teve
+# Library
+
+library(fmsb)
+perfil <- read.csv("ANÁLISE - Questionários_ Atividades - pre&pos&teste_individual.csv")
+
+perfil <- as.data.frame(matrix(sample( 2:20 , 10 , replace=T) , ncol=4))
+colnames(perfil) <- c("Acomodador" , "Assimilador" , "Convergente" , "Divergente")
+
+perfil <- rbind(rep(25,10) , rep(0,10) , perfil)
+
+# Check your data, it has to look like this!
+# head(data)
+
+# Custom the radarChart !
+radarchart( perfil  , axistype=1 , 
+            
+            #custom polygon
+            pcol=rgb(0.2,0.5,0.5,0.9) , pfcol=rgb(0.2,0.5,0.5,0.5) , plwd=4 , 
+            
+            #custom the grid
+            cglcol="grey", cglty=1, axislabcol="grey", caxislabels=seq(0,20,5), cglwd=0.8,
+            
+            #custom labels
+            vlcex=0.8 
+)
 
 
-#plotando o gráfico do ganho e não ganho do pré e pós teste por sexo
-dados %>% ggplot(aes(resultado_geral, ganho_geral, fill=sexo)) + 
-  geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, title='Ganho de Aprendizagem do Pré e Pós Teste por Sexo', fill='Sexo', color=NULL)+
-  theme_minimal()
 
-#plotando o gráfico de estilo de aprendizagem geral 
-#title='Ganho de Aprendizagem Geral'
-dados %>% ggplot(aes(resultado_geral, ganho_geral, color=estilo_aprendizagem)) + 
-  geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, color='Estilo de Aprendizagem')+
-  theme_minimal()
+#Nuvem de Palavras
+library(wordcloud)
+library(RColorBrewer)
 
-#plotando o gráfico do ganho e não ganho do conteúdo sequência
-#title='Ganho de Aprendizagem do Conteúdo: Sequência',
-dados %>% ggplot(aes(resultado_sequencia, ganho_sequencia, fill=resultado_sequencia, color=resultado_sequencia)) + 
-  geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL, fill=NULL, color=NULL)+
-  theme_minimal()
+nuvem = read.csv("5.wordcloud/ganho/plug_01mp3.txt", header=T, sep = ";")
 
-#plotando o gráfico do ganho e não ganho do conteúdo repetição
-#title='Ganho de Aprendizagem do Conteúdo: Repetição', 
-dados %>% ggplot(aes(resultado_repeticao, ganho_repeticao, fill=resultado_repeticao, color=resultado_repeticao )) + 
-  geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL,  fill=NULL, color=NULL)+
-  theme_minimal()
+wordcloud(words = nuvem$palavra, freq = nuvem$frequencia)
 
-#plotando o gráfico do ganho e não ganho do conteúdo condicional
-#title='Ganho de Aprendizagem do Conteúdo: Condicional',
-dados %>% ggplot(aes(resultado_condicional, ganho_condicional, fill=resultado_condicional, color=resultado_condicional)) + 
-  geom_boxplot(alpha=0.3) + geom_jitter() +
-  labs(x=NULL, y=NULL,  fill=NULL, color=NULL)+
-  theme_minimal()
-
-
-#perfil dos estudantes
-dados %>% ggplot(aes(x = estilo_aprendizagem, y = exp_ativa..x_1q.))+ 
-  geom_boxplot(fill='brown4', alpha=0.1, width=.5)+
-  stat_summary(fun=mean, geom = 'point', col='brown4', shape=8)+
-  labs(x=NULL, y='Experiência Ativa', title='Estilo de Aprendizagem')+
-  theme_minimal()
-
-
-dados %>% ggplot(aes(x = estilo_aprendizagem, y = exp_concreta..y_2q.))+ 
-  geom_boxplot(fill='brown4', alpha=0.1, width=.5)+
-  stat_summary(fun=mean, geom = 'point', col='brown4', shape=8)+
-  labs(x=NULL, y='Experiência Concreta', title='Estilo de Aprendizagem')+
-  theme_minimal()
-
-dados %>% ggplot(aes(x = estilo_aprendizagem, y = obs_reflexiva..x_3q.))+ 
-  geom_boxplot(fill='brown4', alpha=0.1, width=.5)+
-  stat_summary(fun=mean, geom = 'point', col='brown4', shape=8)+
-  labs(x=NULL, y='Observação Reflexiva', title='Estilo de Aprendizagem')+
-  theme_minimal()
-
-
-dados %>% ggplot(aes(x = estilo_aprendizagem, y = con_abstrata.y_4q.))+ 
-  geom_boxplot(fill='brown4', alpha=0.1, width=.5)+
-  stat_summary(fun=mean, geom = 'point', col='brown4', shape=8)+
-  labs(x=NULL, y='Conceituação Abstrata', title='Estilo de Aprendizagem')+
-  theme_minimal()
 
 
 #construir os testes

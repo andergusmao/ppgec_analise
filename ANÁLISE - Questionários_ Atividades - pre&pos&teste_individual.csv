@@ -1,0 +1,41 @@
+nº,duplas,colaborador,sexo,serie,estilo_aprendizagem,pre_teste,pre_teste_geral,colaborador,pos_teste,pos_teste_geral,ganho_geral,resultado_geral,Já ouviu sobre Pensamento Computacional antes dessa Oficina?,Havia feito algum curso de programação ou robótica?
+3,dupla_01,Anna Cecilia,F,2,convergente,11 / 20,55,Anna Cecilia ,10 / 20,50,-5,Não Teve Ganho,Não,Não
+6,dupla_01,Bruna Godê Pedrosa de Araujo.,F,2,convergente,12 / 20,60,Bruna Godê Pedrosa de Araujo,11 / 20,55,-5,Não Teve Ganho,Não,Não
+12,dupla_02,giovanna freitas pinheiro,F,1,convergente,14 / 20,70,Giovanna Freitas,11 / 20,55,-15,Não Teve Ganho,Não,Sim
+13,dupla_02,Hanna Açucena Silva Asevedo,F,1,convergente,10 / 20,50,Hanna Açucena Silva Asevedo,7 / 20,35,-15,Não Teve Ganho,Sim,Não
+4,dupla_03,Anna luisa,F,1,acomodador,6 / 20,30,Anna Luisa,7 / 20,35,5,Teve Ganho,Não,Não
+32,dupla_03,Nara Crasto Amorim,F,1,divergente,10 / 20,50,Nara Crasto Amorim,11 / 20,55,5,Teve Ganho,Não,Não
+1,dupla_04,alekxa do carmo lima,F,1,assimilador,6 / 20,30,alekxa do carmo lima ,4 / 20,20,-10,Não Teve Ganho,Não,Não
+9,dupla_04,Danyelle Victoria Gomes Soares,F,1,convergente,9 / 20,45,Danyelle Victoria ,6 / 20,30,-15,Não Teve Ganho,Não,Não
+31,dupla_05,Matheus Mackenzie Venâncio Costa,M,1,assimilador,12 / 20,60,Matheus Mackenzie Venâncio Costa,14 / 20,70,10,Teve Ganho,Não,Não
+37,dupla_05,rodrigo nascimento coutinho junior,M,1,acomodador,11 / 20,55,rodrigo nascimento coutinho junior,13 / 20,65,10,Teve Ganho,Não,Não
+14,dupla_06,iana,F,1,assimilador,10 / 20,50,iana mahmood souto maior,12 / 20,60,10,Teve Ganho,Não,Não
+28,dupla_06,maria clara,F,1,divergente,9 / 20,45,Maria Clara,6 / 20,30,-15,Não Teve Ganho,Não,Não
+10,dupla_07,dayvson alexandre,M,1,convergente,7 / 20,35,dayvson alexandre ,7 / 20,35,0,Não Teve Ganho,Não,Não
+24,dupla_07,luís Miguel,M,1,assimilador,11 / 20,55,luís Miguel,10 / 20,50,-5,Não Teve Ganho,Não,Sim
+5,dupla_08,braian jessé martins de araújo,M,1,acomodador,10 / 20,50,braian jessé martins de araújo,11 / 20,55,5,Teve Ganho,Sim,Não
+15,dupla_08,Isaias Matheus,M,1,convergente,13 / 20,65,Isaias Matheus,14 / 20,70,5,Teve Ganho,Não,Não
+2,dupla_09,alison maarques amorim da silva,M,1,acomodador,8 / 20,40,alison marques amorim da silva,4 / 20,20,-20,Não Teve Ganho,Não,Não
+19,dupla_09,josé eduardo santos de oliveira ,M,1,assimilador,10 / 20,50,josé eduardo santos de oliveira,9 / 20,45,-5,Não Teve Ganho,Sim,Não
+17,dupla_10,Joao Lucas neves dos santos,M,1,acomodador,10 / 20,50,Joao Lucas neves,8 / 20,40,-10,Não Teve Ganho,Não,Não
+18,dupla_10,João Vitor França de Araújo,M,1,assimilador,10 / 20,50,João Vitor França de Araújo,13 / 20,65,15,Teve Ganho,Não,Sim
+29,dupla_11,maria clara silva ventura ,F,1,assimilador,9 / 20,45,MARIA CLARA SILVA VENTURA,12 / 20,60,15,Teve Ganho,Não,Não
+39,dupla_11,Sara Nascimento de Paula,F,1,acomodador,12 / 20,60,Sara Nascimento De Paula,10 / 20,50,-10,Não Teve Ganho,Não,Sim
+8,dupla_12,Chryslaine,F,2,convergente,10 / 20,50,chryslaine,7 / 20,35,-15,Não Teve Ganho,Não,Sim
+33,dupla_12,nycole evelyn da conceição frutuoso,F,2,assimilador,9 / 20,45,nycole evelyn da conceição frutuoso,11 / 20,55,10,Teve Ganho,Não,Não
+16,dupla_13,João Andrade,M,2,convergente,12 / 20,60,João Andrade,15 / 20,75,15,Teve Ganho,Não,Não
+30,dupla_13,maria victoria costa de queiroz,F,2,convergente,13 / 20,65,Maria Victoria Costa De Queiroz,11 / 20,55,-10,Não Teve Ganho,Não,Não
+35,dupla_14,Pedro Henrique Pereira de Souza,M,3,acomodador,4 / 20,20,Pedro Henrique,10 / 20,50,30,Teve Ganho,Não,Não
+40,dupla_14,Ytalo de Oliveira Negromonte Lemos,M,2,assimilador,15 / 20,75,Ytalo de Oliveira Negromonte Lemos,15 / 20,75,0,Não Teve Ganho,Sim,Não
+21,dupla_15,kauanny vitória ,F,1,acomodador,7 / 20,35,kauanny vitoria de santana costa,12 / 20,60,25,Teve Ganho,Não,Não
+36,dupla_15,Reinaldo Andriel Ramos Martins da Silva,M,1,convergente,19 / 20,95,REINALDO ANDRIEL,17 / 20,85,-10,Não Teve Ganho,Sim,Não
+11,dupla_16,Fábio Nascimento Nunes da Silva Filho,M,1,convergente,9 / 20,45,Fábio Nascimento Nunes da Silva Filho,15 / 20,75,30,Teve Ganho,Sim,Não
+27,dupla_16,MARCOS VINICIUS  ,M,1,divergente,7 / 20,35,MARCOS VINICIUS,5 / 20,25,-10,Não Teve Ganho,Não,Não
+23,dupla_17,luis felipe barbosa alves silva ,M,1,convergente,6 / 20,30,luis felipe barbosa alves silva ,7 / 20,35,5,Teve Ganho,Não,Não
+26,dupla_17,marcos andré,M,1,convergente,6 / 20,30,marcos andre,4 / 20,20,-10,Não Teve Ganho,Sim,Não
+7,dupla_18,cecilia freitas  pinto da silva,F,2,divergente,13 / 20,65,Cecilia freitas pinto da silva ,10 / 20,50,-15,Não Teve Ganho,Não,Não
+34,dupla_18,Pedro Henrique Oliveria de Lira,M,2,assimilador,11 / 20,55,Pedro Henrique,10 / 20,50,-5,Não Teve Ganho,Sim,Não
+20,dupla_19,Juliane Marques,F,3,convergente,7 / 20,35,Juliane Marques,8 / 20,40,5,Teve Ganho,Não,Não
+25,dupla_19,Luiz Gustavo Machado De Oliveira,M,3,convergente,10 / 20,50,Luiz Gustavo,11 / 20,55,5,Teve Ganho,Não,Não
+22,dupla_20,kayalli vitoria barreto da silva,F,1,assimilador,10 / 20,50,kayalli vitoria ,12 / 20,60,10,Teve Ganho,Não,Não
+38,dupla_20,Sabrina ellen paulina da silva,F,1,assimilador,10 / 20,50,sabrina ellen paulina da silva,4 / 20,20,-30,Não Teve Ganho,Não,Não
